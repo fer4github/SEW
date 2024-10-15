@@ -1,0 +1,287 @@
+/*Fernando Suárez Hevia UO289324/
+
+/* 1-0: Selector universal que aplica a todo el documento */
+
+/*
+Colores:
+Olive Green: #3d550c
+Yellow Green: #ecf87f
+Blanco: #ffffff
+Negro: #000000
+Verde Claro: #ccff66
+Gris Claro: #e0e0e0
+Sombra Gris: #333333
+*/
+
+/*  a=0 b=0 c=1 -> Especificidad 001*/
+body {
+    background-color: #ecf87f; /* Yellow Green - Fondo claro */
+    color: #3d550c; /* Olive Green - Texto principal */
+    font-family: Arial, sans-serif; /* Herencia de la fuente */
+    line-height: 1.6; 
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+/*  a=0 b=0 c=1 -> Especificidad 001*/
+header {
+	color: #ecf87f; /* Yellow Green - Texto del header*/
+    background-color: #3d550c; /* Olive Green - Fondo del header */
+	margin-left: 0em;
+    padding: 2em;
+}
+
+/* Estilo para los enlaces en el header */
+/*  a=0 b=0 c=2 -> Especificidad 002*/
+header a {
+	/*background-color heredado de header*/
+    color: #ffffff; /* Color blanco para los enlaces en el header */
+    text-decoration: none; /* sin subrayar */
+}
+
+/*  a=0 b=1 c=2 -> Especificidad 012*/
+header a:hover {
+	/*background-color heredado de header*/
+    color: #ecf87f; /* Color Yellow Green si pasa el raton */
+    text-decoration: underline; /* Subrayar si pasa el raton */
+}
+
+/*  a=0 b=1 c=2 -> Especificidad 012*/
+header a:visited {
+	/*background-color heredado de header*/
+    color: #ecf87f; /* Color Yellow Green si se ha visitado el enlace */
+    text-decoration: underline; /* Subrayar si pasa el raton */
+}
+
+/* H1 */
+/*  a=0 b=0 c=2 -> Especificidad 002*/
+header h1 {
+	/*background-color heredado de header*/
+    color: #ffffff; /* Color blanco para el texto del h1 */
+    font-size: 2em; 
+    margin: 0; /* Sin margen */
+}
+
+/*  a=0 b=0 c=3 -> Especificidad 003*/
+header h1 a {
+    text-decoration: none; /* sin subrayar */
+	/*background-color heredado de header*/
+    color: #ffffff; /* Color blanco para el a del h1 */
+}
+
+/* Nav */
+/*  a=0 b=0 c=1 -> Especificidad 001*/
+nav {
+	/*color heredado de header*/
+    background-color: #3d550c; /* Olive Green - Fondo del nav */
+    padding: 1em;
+    text-align: center;
+}
+
+/* Enlaces dentro del nav */
+/*  a=0 b=0 c=2 -> Especificidad 002*/
+nav a {
+	/* background-color heredado de header*/
+    color: #ffffff; /* Color blanco para los enlaces en el nav */
+    text-decoration: none; /*sin subrayar */
+    font-size: 1.1em; 
+    margin: 0 1em;
+}
+
+/* Estilo para el enlace activo en el menú */
+/*  a=0 b=1 c=2 -> Especificidad 012*/
+nav a.active {
+	/* background-color heredado de header*/
+    color: #CCFF66; /* Cambiar a verde claro */
+    font-weight: bold; 
+    text-decoration: underline; /* Subrayar el enlace en el que estamos */
+    
+}
+
+/* a=0 b=0 c=0 -> especificidad = 000 */
+*{
+  margin-left: 0.5em;
+}
+
+/* a=0 b=0 c=1 -> especificidad = 001 */
+section{
+  margin-bottom: 7em;
+}
+
+/* a=0 b=0 c=1 -> especificidad = 001 */
+footer{
+  bottom: 0;
+  height: 1em; 
+  position: absolute;
+  width: 100%
+}
+
+/* H2 */
+/*  a=0 b=0 c=1 -> Especificidad 001*/
+h2 {
+	/* background-color heredado de body*/
+    color: #3d550c; /* Olive Green - Títulos h2 */
+    font-size: 1.75em; 
+    margin-bottom: 0.5em;
+}
+
+/* H3 */
+/*  a=0 b=0 c=1 -> Especificidad 001*/
+h3 {
+	/* background-color heredado de body*/
+    color: #3d550c; /* Olive Green - Títulos h3 */
+    font-size: 1.5em; 
+}
+
+/* Párrafos */
+/*  a=0 b=0 c=1 -> Especificidad 001*/
+p {
+	/* background-color heredado de body*/
+    color: #3d550c; /* Olive Green - Texto */
+    font-size: 1em; 
+    margin-bottom: 1em;
+}
+
+/* Listas no ordenadas */
+/*  a=0 b=0 c=1 -> Especificidad 001*/
+ul {
+    list-style-type: square; /* listas empiezan con cuadrados */
+    padding-left: 1.25em; 
+    font-size: 1.1em; 
+	/* background-color heredado de body*/
+    color: #3d550c; /* Color de texto */
+}
+
+/*  a=0 b=0 c=2 -> Especificidad 002*/
+ul li {
+    margin-bottom: 1em; /* Espacio entre elementos de la lista */
+}
+
+/* Listas ordenadas */
+/*  a=0 b=0 c=1 -> Especificidad 001*/
+ol {
+    list-style-type: upper-alpha; /* listas empiezan con  letras mayúsculas */
+    padding-left: 1.25em; 
+    font-size: 1.1em; 
+	/* background-color heredado de body*/
+    color: #3d550c; /* Color de texto */
+}
+
+/*  a=0 b=0 c=2 -> Especificidad 002*/
+ol li {
+    margin-bottom: 1em; /* Espacio entre datos */
+}
+
+/* Listas anidadas */
+/*  a=0 b=0 c=3 -> Especificidad 003*/
+ul ul, ol ul, ol ol {
+    list-style-type: circle; /* listas empiezan con círculos */
+    padding-left: 1em; 
+    font-size: 1em; 
+}
+
+/*  a=0 b=0 c=5 -> Especificidad 005*/
+ul ul li, ol ul li, ol ol li {
+    margin-bottom: 0.5em; /* Espacio reducido entre datos de listas*/
+}
+
+/* Estilo general para la lista de definición */
+/*  a=0 b=0 c=1 -> Especificidad 001*/
+
+dl {
+    margin: 1em 0; /* Margen de la lista*/
+    padding: 0.5em;
+    border: 0.05em solid #3d550c; /* Borde de color Olive Green */
+	/* background-color heredado de body*/
+    background-color: #ecf87f; /* Fondo de color Yellow Green */
+    border-radius: 0.5em; /* Bordes redondos */
+}
+
+/* Términos de definición */
+/*  a=0 b=0 c=1 -> Especificidad 001*/
+dt {
+    font-weight: bold; /* Negrita para destacar el término */
+    font-size: 1.2em; 
+    color: #3d550c; /* Color Olive Green para el texto */
+    background-color: #e0e0e0; /* Fondo gris claro */
+    padding: 0.5em; 
+    margin-bottom: 0.5em; /* Espacio debajo*/
+    border-left: 0.5em solid #3d550c; /* Línea vertical izquierda */
+}
+
+/* Descripciones de los términos */
+/*  a=0 b=0 c=1 -> Especificidad 001*/
+dd {
+    margin-left: 1em; /* Sangría*/
+	/* background-color heredado de dl*/
+    color: #333; /* Color de texto más oscuro */
+    font-size: 1em; /* Tamaño de fuente normal */
+    line-height: 1.5em; /* Altura de línea*/
+}
+
+/*  a=0 b=0 c=1 -> Especificidad 001*/
+table {
+    border-collapse: collapse; /* Colapsa bordes */
+    width: 100%; /* Ancho total para ser adaptable */
+    max-width: 60em; /* Ancho máximo*/
+    margin: 1em auto; /* Centrar en la página */
+    box-shadow: 0 0.1em 0.5em rgba(0, 0, 0, 0.1); /* Sombra para destacar la tabla */
+}
+
+/*  a=0 b=0 c=1 -> Especificidad 001*/
+th {
+    background-color: #3d550c; /* Color de fondo del encabezado */
+    color: #ffffff; /* Color del texto del encabezado */
+    padding: 0.5em; 
+    text-align: left; /* Alineación del texto */
+    font-size: 1.1em; /* Tamaño de fuente más grande */
+}
+
+/*  a=0 b=0 c=1 -> Especificidad 001*/
+td {
+    background-color: #ecf87f; /* Color de fondo para las celdas de datos */
+    color: #3d550c; /* Color de texto de las celdas de datos */
+    padding: 0.5em; 
+    border: 0.1em solid #3d550c; /* Bordes*/
+}
+
+/* Elementos multimedia */
+/*  a=0 b=0 c=1 -> Especificidad 001*/
+video {
+	width: 75%;  /* El video ocupará 75% del ancho del contenedor */
+    height: auto;
+}
+
+/*  a=0 b=0 c=1 -> Especificidad 001*/
+audio {
+	width: 50%;
+}
+
+/* Estilo para los enlaces en el resto del documento */
+/*  a=0 b=0 c=1 -> Especificidad 001*/
+a {
+	/* background-color heredado de body*/
+    color: #000000; /* Color negro para los enlaces*/
+    text-decoration: none; /* Elimina el subrayado */
+}
+
+/*  a=0 b=1 c=1 -> Especificidad 011*/
+a:hover {
+	/* background-color heredado de body*/
+    color: #ecf87f; /* Color Yellow Green cuando se pasa el ratón*/
+    text-decoration: underline; /* Subrayado al pasar el ratón*/
+}
+
+/*  a=0 b=1 c=1 -> Especificidad 011*/
+a:visited {
+	/* background-color heredado de body*/
+    color: #000000; /* Color negro para los enlaces visitados*/
+}
+
+/*  a=0 b=1 c=1 -> Especificidad 011*/
+a:active {
+	/* background-color heredado de body*/
+    color: #3d550c; /* Olive Green - Color durante el clic */
+    text-decoration: underline; /* Mantener subrayado */
+}

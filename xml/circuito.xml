@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE circuitos SYSTEM "circuito.dtd">
+<circuitos>
+    <circuito nombre="GP de China">
+        <longitud>"Consta de 5,451 kilómetros el circuito completo"</longitud>
+        <anchura>"Ancho medio del circuito: 14.7 metros"</anchura>
+        <fecha>"Domingo, 21 de abril de 2024"</fecha>
+        <horario>"En España será a las 9.00h"</horario>
+        <vueltas>"El recorrido consta de 56 vueltas"</vueltas>
+        <localidad>"Shanghái"</localidad>
+        <pais>"China"</pais>
+        <referencia>"https://es.motorsport.com/f1/news/resumen-resultados-carrera-china-2024/10601565/"</referencia>
+        <referencia>"https://www.lasexta.com/noticias/deportes/motor/formula1/inexplicable-absurdo-accidente-lance-stroll-china-coche-seguridad_202404216624dc0ac0b95c00010aa0fc.html"</referencia>
+        <referencia>"https://formula1.fandom.com/es/wiki/Gran_Premio_de_China"</referencia>
+        <foto>"aerea.PNG"</foto>
+        <foto>"premio.PNG</foto>
+        <foto>"circuito.png</foto>
+        <video>"accidente.mp4"</video>
+        <centro>
+            <long>"121º 13' 13''"</long>
+            <altitud>"4m"</altitud>
+            <latitud>"31º 20' 13''"</latitud>
+        </centro>
+        <puntos>
+            <distancia>"305m"</distancia>
+            <coordenadas>"latitud: 31º 20' 11'', longitud: 121º 13' 01'', altitud: 4m"</coordenadas>
+            <sector>"1"</sector>
+        </puntos>
+        <puntos>
+            <distancia>"95m"</distancia>
+            <coordenadas>"latitud: 31º 20' 13'', longitud: 121º 12' 58'', altitud: 4m"</coordenadas>
+            <sector>"1"</sector>
+        </puntos>
+        <puntos>
+            <distancia>"89m"</distancia>
+            <coordenadas>"latitud: 31º 20' 16'', longitud: 121º 13' 01'', altitud: 4m"</coordenadas>
+            <sector>"1"</sector>
+        </puntos>
+        <puntos>
+            <distancia>"90m"</distancia>
+            <coordenadas>"latitud: 31º 20' 14'', longitud: 121º 13' 01'', altitud: 4m"</coordenadas>
+            <sector>"1"</sector>
+        </puntos>
+        <puntos>
+            <distancia>"60m"</distancia>
+            <coordenadas>"latitud: 31º 20' 13'', longitud: 121º 13' 02'', altitud: 4m"</coordenadas>
+            <sector>"1"</sector>
+        </puntos>
+        <puntos>
+            <distancia>"50m"</distancia>
+            <coordenadas>"latitud: 31º 20' 14'', longitud: 121º 13' 03'', altitud: 4m"</coordenadas>
+            <sector>"1"</sector>
+        </puntos>
+        <puntos>
+            <distancia>"59m"</distancia>
+            <coordenadas>"latitud: 31º 20' 16'', longitud: 121º 13' 04'', altitud: 4m"</coordenadas>
+            <sector>"1"</sector>
+        </puntos>
+        <puntos>
+            <distancia>"78m"</distancia>
+            <coordenadas>"latitud: 31º 20' 23'', longitud: 121º 12' 56'', altitud: 4m"</coordenadas>
+            <sector>"1"</sector>
+        </puntos>
+        <puntos>
+            <distancia>"301m"</distancia>
+            <coordenadas>"latitud: 31º 20' 30'', longitud: 121º 12' 53'', altitud: 4m"</coordenadas>
+            <sector>"2"</sector>
+        </puntos>
+        <puntos>
+            <distancia>"225m"</distancia>
+            <coordenadas>"latitud: 31º 20' 31'', longitud: 121º 12' 54'', altitud: 4m"</coordenadas>
+            <sector>"2"</sector>
+        </puntos>
+        <puntos>
+            <distancia>"46m"</distancia>
+            <coordenadas>"latitud: 31º 20' 30'', longitud: 121º 12' 57'', altitud: 4m"</coordenadas>
+            <sector>"2"</sector>
+        </puntos>
+        <puntos>
+            <distancia>"88m"</distancia>
+            <coordenadas>"latitud: 31º 20' 23'', longitud: 121º 13' 02'', altitud: 4m"</coordenadas>
+            <sector>"2"</sector>
+        </puntos>
+        <puntos>
+            <distancia>"265m"</distancia>
+            <coordenadas>"latitud: 31º 20' 22'', longitud: 121º 13' 07'', altitud: 4m"</coordenadas>
+            <sector>"2"</sector>
+        </puntos>
+        <puntos>
+            <distancia>"134m"</distancia>
+            <coordenadas>"latitud: 31º 20' 24'', longitud: 121º 13' 09'', altitud: 4m"</coordenadas>
+            <sector>"2"</sector>
+        </puntos>
+        <puntos>
+            <distancia>"100m"</distancia>
+            <coordenadas>"latitud: 31º 20' 28'', longitud: 121º 13' 13'', altitud: 4m"</coordenadas>
+            <sector>"2"</sector>
+        </puntos>
+        <puntos>
+            <distancia>"162m"</distancia>
+            <coordenadas>"latitud: 31º 20' 24'', longitud: 121º 13' 18'', altitud: 4m"</coordenadas>
+            <sector>"2"</sector>
+        </puntos>
+        <puntos>
+            <distancia>"195m"</distancia>
+            <coordenadas>"latitud: 31º 20' 26'', longitud: 121º 13' 21'', altitud: 4m"</coordenadas>
+            <sector>"2"</sector>
+        </puntos>
+        <puntos>
+            <distancia>"124m"</distancia>
+            <coordenadas>"latitud: 31º 20' 11'', longitud: 121º 13' 01'', altitud: 4m"</coordenadas>
+            <sector>"3"</sector>
+        </puntos>
+        <puntos>
+            <distancia>"409m"</distancia>
+            <coordenadas>"latitud: 31º 20' 38'', longitud: 121º 13' 13'', altitud: 4m"</coordenadas>
+            <sector>"3"</sector>
+        </puntos>
+        <puntos>
+            <distancia>"75m"</distancia>
+            <coordenadas>"latitud: 31º 20' 39'', longitud: 121º 13' 12'', altitud: 4m"</coordenadas>
+            <sector>"3"</sector>
+        </puntos>
+        <puntos>
+            <distancia>"78m"</distancia>
+            <coordenadas>"latitud: 31º 20' 38'', longitud: 121º 13' 09'', altitud: 4m"</coordenadas>
+            <sector>"3"</sector>
+        </puntos>
+        <puntos>
+            <distancia>"79m"</distancia>
+            <coordenadas>"latitud: 31º 20' 40'', longitud: 121º 13' 08'', altitud: 4m"</coordenadas>
+            <sector>"3"</sector>
+        </puntos>
+        <puntos>
+            <distancia>"180m"</distancia>
+            <coordenadas>"latitud: 31º 20' 43'', longitud: 121º 13' 12'', altitud: 4m"</coordenadas>
+            <sector>"3"</sector>
+        </puntos>
+        <puntos>
+            <distancia>"140m"</distancia>
+            <coordenadas>"latitud: 31º 20' 40'', longitud: 121º 13' 16'', altitud: 4m"</coordenadas>
+            <sector>"3"</sector>
+        </puntos>
+        <puntos>
+            <distancia>"1165m"</distancia>
+            <coordenadas>"latitud: 31º 20' 09'', longitud: 121º 13' 40'', altitud: 4m"</coordenadas>
+            <sector>"3"</sector>
+        </puntos>
+        <puntos>
+            <distancia>"91m"</distancia>
+            <coordenadas>"latitud: 31º 20' 09'', longitud: 121º 13' 37'', altitud: 4m"</coordenadas>
+            <sector>"3"</sector>
+        </puntos>
+        <puntos>
+            <distancia>"295m"</distancia>
+            <coordenadas>"latitud: 31º 20' 17'', longitud: 121º 13' 30'', altitud: 4m"</coordenadas>
+            <sector>"3"</sector>
+        </puntos>
+        <puntos>
+            <distancia>"485m"</distancia>
+            <coordenadas>"latitud: 31º 20' 14'', longitud: 121º 13' 13'', altitud: 4m"</coordenadas>
+            <sector>"1"</sector>
+        </puntos>
+    </circuito>
+</circuitos>

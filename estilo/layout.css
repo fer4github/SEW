@@ -1,0 +1,32 @@
+/*Fernando Suárez Hevia UO289324 */
+
+/*  a=0 b=0 c=1 -> Especificidad 001*/
+header {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+@media only screen and (max-width:465px){
+	
+	/*  a=0 b=0 c=1 -> Especificidad 001*/
+	header {
+		flex-direction: column;		/*redefinimos la propiedad flex-direction*/
+		justify-content: center;	/*redefinimos la propiedad justify-content*/
+	}
+	
+	/*  a=0 b=0 c=1 -> Especificidad 001*/
+	nav {
+		display: flex;
+		flex-direction: column;		
+		flex-wrap: wrap;			
+		gap: 1.5em;
+	}
+	
+	/*  a=0 b=0 c=2 -> Especificidad 002*/
+	header + p {
+		display: none;
+	}
+}
